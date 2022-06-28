@@ -5,14 +5,22 @@ namespace NotasMoedas
     class Program
     {
         static void Main(string[] args)
-        {
-            decimal valor = decimal.Parse(Console.ReadLine());
+        {           
+            try
+            {
+                decimal valor = decimal.Parse(Console.ReadLine());
 
-            CaixaEletronico caixaEletronico = new CaixaEletronico(valor);
+                CaixaEletronico caixaEletronico = new CaixaEletronico(valor);
 
-            caixaEletronico.CalculaNotas();
+                caixaEletronico.CalculaNotas();
 
-            Console.WriteLine(caixaEletronico);
+                Console.WriteLine(caixaEletronico);
+
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error: {e.Message}");
+            }
         }
     }
 }
