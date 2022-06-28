@@ -1,0 +1,16 @@
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\bin\Debug\net5.0\NotasMoedas.exe
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\bin\Debug\net5.0\NotasMoedas.deps.json
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\bin\Debug\net5.0\NotasMoedas.runtimeconfig.json
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\bin\Debug\net5.0\NotasMoedas.runtimeconfig.dev.json
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\bin\Debug\net5.0\NotasMoedas.dll
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\bin\Debug\net5.0\ref\NotasMoedas.dll
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\bin\Debug\net5.0\NotasMoedas.pdb
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.csproj.AssemblyReference.cache
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.AssemblyInfoInputs.cache
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.AssemblyInfo.cs
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.csproj.CoreCompileInputs.cache
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.dll
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\ref\NotasMoedas.dll
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.pdb
+C:\Users\015238631\Documents\Projetos.net\NotasMoedas\NotasMoedas\obj\Debug\net5.0\NotasMoedas.genruntimeconfig.cache
