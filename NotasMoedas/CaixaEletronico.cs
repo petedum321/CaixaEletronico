@@ -1,4 +1,4 @@
-﻿
+﻿using System.Globalization;
 namespace NotasMoedas
 {
     class CaixaEletronico
@@ -64,19 +64,19 @@ namespace NotasMoedas
         public override string ToString()
         {
             return $"NOTAS: \n" +
-                $"{NotaCem} nota(s) de R$ 100.00\n" +
-                $"{NotaCinquenta} nota(s) de R$ 50.00\n" +
-                $"{NotaVinte} nota(s) de R$ 20.00\n" +
-                $"{NotaDez} nota(s) de R$ 10.00\n" +
-                $"{NotaCinco} nota(s) de R$ 5.00\n" +
-                $"{NotaDois} nota(s) de R$ 2.00\n" +
+                $"{NotaCem.ToString(CultureInfo.InvariantCulture)} nota(s) de R$ 100.00\n" +
+                $"{NotaCinquenta.ToString(CultureInfo.InvariantCulture)} nota(s) de R$ 50.00\n" +
+                $"{NotaVinte.ToString(CultureInfo.InvariantCulture)} nota(s) de R$ 20.00\n" +
+                $"{NotaDez.ToString(CultureInfo.InvariantCulture)} nota(s) de R$ 10.00\n" +
+                $"{NotaCinco.ToString(CultureInfo.InvariantCulture)} nota(s) de R$ 5.00\n" +
+                $"{NotaDois.ToString(CultureInfo.InvariantCulture)} nota(s) de R$ 2.00\n" +
                 $"MOEDAS:\n" +
-                $"{MoedaUm} moeda(s) de R$ 1.00\n" +
-                $"{MoedaCinquenta} moeda(s) de R$ 0.50\n" +
-                $"{MoedaVinteCinco} moeda(s) de R$ 0.25\n" +
-                $"{MoedaDez} moeda(s) de R$ 0.10\n" +
-                $"{MoedaCinco} moeda(s) de R$ 0.05\n" +
-                $"{MoedaZeroUm} moeda(s) de R$ 0.01\n";
+                $"{MoedaUm.ToString(CultureInfo.InvariantCulture)} moeda(s) de R$ 1.00\n" +
+                $"{MoedaCinquenta.ToString(CultureInfo.InvariantCulture)} moeda(s) de R$ 0.50\n" +
+                $"{MoedaVinteCinco.ToString(CultureInfo.InvariantCulture)} moeda(s) de R$ 0.25\n" +
+                $"{MoedaDez.ToString(CultureInfo.InvariantCulture)} moeda(s) de R$ 0.10\n" +
+                $"{MoedaCinco.ToString(CultureInfo.InvariantCulture)} moeda(s) de R$ 0.05\n" +
+                $"{MoedaZeroUm.ToString(CultureInfo.InvariantCulture)} moeda(s) de R$ 0.01\n";
         }
     }
 }

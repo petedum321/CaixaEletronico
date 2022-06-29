@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace NotasMoedas
 {
@@ -8,7 +9,7 @@ namespace NotasMoedas
         {           
             try
             {
-                decimal valor = decimal.Parse(Console.ReadLine());
+                decimal valor = decimal.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);              
 
                 CaixaEletronico caixaEletronico = new CaixaEletronico(valor);
 
